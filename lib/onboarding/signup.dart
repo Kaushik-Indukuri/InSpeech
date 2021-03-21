@@ -8,6 +8,7 @@ import 'package:inspeech/services/auth.dart';
 import 'package:inspeech/services/database.dart';
 import 'package:inspeech/services/helperfunctions.dart';
 import 'package:flutter/material.dart';
+
 /**
  * The SignUp class is used to create a new account for new users. Signing up for an account is necessary
  * to access the contents of the application. It the user a chance to access their information at anytime, 
