@@ -7,6 +7,16 @@ import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:inspeech/screens/dashboard/dashboard.dart';
 
+/**
+ * Class home is controls the home page of the 
+ * app. Features tabs like Dashboard and Practice
+ * and bottom navigation bar. Primary page user
+ * will be on.
+ *
+ * @author Kaushik Indukuri, Yuvraj Khullar, Akhil Giridhar, Derek Xu
+ * @version 1.0
+ */
+
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
