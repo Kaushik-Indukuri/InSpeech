@@ -1,12 +1,11 @@
+import 'package:flutter/material.dart';
+import 'package:simple_animations/simple_animations.dart';
 /**
  * The FadeAnimation class is used throughout the application to make the user interface of the application to be more visually appealing.
  *
  * @author Kaushik Indukuri, Yuvraj Khullar, Akhil Giridhar, Derek Xu
  * @version 1.0
 */
-import 'package:flutter/material.dart';
-import 'package:simple_animations/simple_animations.dart';
-
 class FadeAnimation extends StatelessWidget {
   final double delay;
   final Widget child;
