@@ -1,3 +1,11 @@
+/**
+ * The BackgroundPainter class is used throughout the application to set the background color of
+ * certain pages in the application. This class creates smooth curves for a variety of our applications
+ * features, making the overall user experience much more aesthetic. 
+ *
+ * @author Kaushik Indukuri, Yuvraj Khullar, Akhil Giridhar, Derek Xu
+ * @version 1.0
+ */
 import 'package:flutter/rendering.dart';
 import 'colors.dart';
 
