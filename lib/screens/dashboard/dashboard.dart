@@ -12,6 +12,16 @@ import 'package:inspeech/services/helperfunctions.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:neumorphic/neumorphic.dart';
 
+/**
+ * Class Dashboard analyzes speech. Detects
+ * duration, speaking tone, volume, pace, and 
+ * frequency of filler words via Web Speech API
+ * and Tone Analyzer API.
+ *
+ * @author Kaushik Indukuri, Yuvraj Khullar, Akhil Giridhar, Derek Xu
+ * @version 1.0
+ */
+
 class Dashboard extends StatefulWidget {
   @override
   _DashboardState createState() => _DashboardState();
