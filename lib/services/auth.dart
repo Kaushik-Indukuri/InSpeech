@@ -1,6 +1,15 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'user.dart';
 
+/**
+ * Class AuthMethods contains functions that checks
+ * whether the username and password are correct. It also
+ * allows you to sign up through the app and reset password.
+ *
+ * @author Kaushik Indukuri, Yuvraj Khullar, Akhil Giridhar, Derek Xu
+ * @version 1.0
+ */
+
 class AuthMethods{
 
   final FirebaseAuth _auth = FirebaseAuth.instance;
