@@ -10,6 +10,15 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 import '../home.dart';
 import 'ocrmodel.dart';
 
+/**
+ * The Practice class displays a script that the user can use to practice their talking speed.
+ Based on speaking models, it scrolls the script at a speed that is recommended while talking and
+ allows the user to push their limits and follow the script at the right pace.
+ *
+ * @author Kaushik Indukuri, Yuvraj Khullar, Akhil Giridhar, Derek Xu
+ * @version 1.0
+*/
+
 class Practice extends StatefulWidget {
   @override
   _PracticeState createState() => _PracticeState();
