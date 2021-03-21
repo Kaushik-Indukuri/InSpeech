@@ -2,6 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:inspeech/constants/background-painter.dart';
 import 'package:inspeech/constants/colors.dart';
 
+/**
+ * The OCRModel class detects text from an input image and highlights different sections that can be used
+ to practice speech. These textboxes can be edited to the user's preference as the highlighted sections are
+ copied onto a textbox, where the user can change the text to their liking.
+ *
+ * @author Kaushik Indukuri, Yuvraj Khullar, Akhil Giridhar, Derek Xu
+ * @version 1.0
+*/
+
 class OCRModel extends StatefulWidget {
   @override
   _OCRModelState createState() => _OCRModelState();
