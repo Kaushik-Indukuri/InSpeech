@@ -1,3 +1,8 @@
+import 'dart:math';
+import 'package:fl_chart/fl_chart.dart';
+import 'package:flutter/material.dart';
+import 'colors.dart';
+
 /**
  * The LineChart class is used to create the line chart in the words per minute analysis page. We used
  * the FLChart package to help us create this visual.
@@ -5,10 +10,6 @@
  * @author Kaushik Indukuri, Yuvraj Khullar, Akhil Giridhar, Derek Xu
  * @version 1.0
 */
-import 'dart:math';
-import 'package:fl_chart/fl_chart.dart';
-import 'package:flutter/material.dart';
-import 'colors.dart';
 
 class LineChartSample4 extends StatelessWidget {
   @override
