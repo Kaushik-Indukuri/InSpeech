@@ -4,6 +4,16 @@ import 'package:flutter/material.dart';
 import 'onboarding/welcome.dart';
 import 'package:firebase_core/firebase_core.dart';
 
+/**
+ * This file is the main file the app runs on.
+ * Creates a state to determine whether user is logged
+ * in or not. It launches the app to the welcome page
+ * and initializes all constants.
+ *
+ * @author Kaushik Indukuri, Yuvraj Khullar, Akhil Giridhar, Derek Xu
+ * @version 1.0
+ */
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -36,12 +46,12 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'InSpeech',
       theme: ThemeData(
         primarySwatch: Colors.grey,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Home(),
+      home: Welcome(),
     );
   }
 }
