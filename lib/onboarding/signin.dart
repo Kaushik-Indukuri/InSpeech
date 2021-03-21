@@ -9,7 +9,14 @@ import 'package:inspeech/services/auth.dart';
 import 'package:inspeech/services/database.dart';
 import 'package:inspeech/services/helperfunctions.dart';
 import 'package:flutter/material.dart';
-
+/**
+ * The SignIn class is used to sign into a previously created account. This gives the user a chance
+ * to access their information at anytime, from any phone. We use firebase for user authorization,
+ * sending a request everytime the user enters their email and password.
+ *
+ * @author Kaushik Indukuri, Yuvraj Khullar, Akhil Giridhar, Derek Xu
+ * @version 1.0
+*/
 
 class SignIn extends StatefulWidget {
   @override
