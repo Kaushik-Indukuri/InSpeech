@@ -3,7 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 /**
  * Class HelperFunctions controls user preferences
  * and also checks if user is logged in. Fetches data of 
- * name and email of account. Used in tandem with FireBase.
+ * name and email of account. Used in tandem with Firebase.
  *
  * @author Kaushik Indukuri, Yuvraj Khullar, Akhil Giridhar, Derek Xu
  * @version 1.0
