@@ -1,3 +1,10 @@
+/**
+ * This file is used to set the main colors of this application so they are easy to access while programming
+ * the application.
+ *
+ * @author Kaushik Indukuri, Yuvraj Khullar, Akhil Giridhar, Derek Xu
+ * @version 1.0
+*/
 import 'package:flutter/material.dart';
 
 const Color background = Color(0xFF211e2f);
