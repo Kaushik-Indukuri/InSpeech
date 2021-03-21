@@ -3,6 +3,7 @@ import 'package:inspeech/constants/colors.dart';
 import 'package:inspeech/onboarding/signin.dart';
 import 'package:inspeech/onboarding/signup.dart';
 import 'package:flutter/material.dart';
+
 /**
  * The Welcome class is used to greet the user into the application. It is the first screen displayed when
  * the user enters the application. Here they are given the option to either create a new account or
@@ -11,6 +12,7 @@ import 'package:flutter/material.dart';
  * @author Kaushik Indukuri, Yuvraj Khullar, Akhil Giridhar, Derek Xu
  * @version 1.0
 */
+
 class Welcome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
